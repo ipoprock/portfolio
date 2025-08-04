@@ -2,76 +2,75 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
 }
 body {
-  background: #0d0d0d;
-  color: #f2f2f2;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #111;
   line-height: 1.6;
 }
-.hero {
-  background: linear-gradient(to right, #1f1f1f, #292929);
-  padding: 3rem 1rem;
-  text-align: center;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #f7f7f7;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
-.hero h1 {
-  font-size: 3rem;
-  color: #00ffd0;
+.logo {
+  font-size: 1.8rem;
 }
-.hero p {
-  font-size: 1.2rem;
-}
-section {
-  padding: 2rem;
-  max-width: 900px;
-  margin: auto;
-}
-h2 {
-  margin-bottom: 1rem;
-  color: #00ffd0;
-}
-.skills ul {
+nav ul {
+  display: flex;
+  gap: 2rem;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
 }
-.skills li {
-  background: #222;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
+nav a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
 }
-.portfolio-grid {
-  display: flex;
-  flex-wrap: wrap;
+main {
+  padding: 2rem;
+}
+.grid-section h1,
+#about h1,
+#contact h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
 }
-.portfolio-grid a {
-  flex: 1 1 45%;
-  text-decoration: none;
-  color: white;
-}
-.portfolio-grid img {
+.item img {
   width: 100%;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
+  border-radius: 8px;
 }
-.portfolio-grid img:hover {
-  transform: scale(1.03);
+.item p {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+#about, #contact {
+  max-width: 800px;
+  margin: 4rem auto;
+  text-align: center;
 }
 form input, form textarea {
   width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
-  background: #222;
-  border: none;
-  color: #fff;
+  border: 1px solid #ccc;
   border-radius: 5px;
 }
 button {
   padding: 0.8rem 2rem;
-  background: #00ffd0;
-  color: #000;
+  background: #111;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -79,6 +78,6 @@ button {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #111;
+  background: #f7f7f7;
   margin-top: 2rem;
 }
