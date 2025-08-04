@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background: #0d0d0d;
+  color: #f2f2f2;
+  line-height: 1.6;
+}
+.hero {
+  background: linear-gradient(to right, #1f1f1f, #292929);
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  color: #00ffd0;
+}
+.hero p {
+  font-size: 1.2rem;
+}
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  margin-bottom: 1rem;
+  color: #00ffd0;
+}
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.skills li {
+  background: #222;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.portfolio-grid a {
+  flex: 1 1 45%;
+  text-decoration: none;
+  color: white;
+}
+.portfolio-grid img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.portfolio-grid img:hover {
+  transform: scale(1.03);
+}
+form input, form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #222;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+button {
+  padding: 0.8rem 2rem;
+  background: #00ffd0;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  margin-top: 2rem;
+}
