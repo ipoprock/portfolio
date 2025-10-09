@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="../index.html#skills-section">Skills</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="featured-projects" class="featured-projects-section">
+      <div class="container">
+        <h2 class="animated-heading section-heading"><span>F</span><span>e</span><span>a</span><span>t</span><span>u</span><span>r</span><span>e</span><span>d</span><span class="word-space">&nbsp;</span><span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>s</span></h2>
+        <div class="project-grid">
+          <a href="project-1.html" class="project-card">
+            <img src="../assets/projects/project-1-thumb.jpg" alt="Project 1 Thumbnail" loading="lazy">
+            <div class="project-card-overlay">
+              <h3>Project One</h3>
+              <p>A short description of the first project.</p>
+            </div>
+          </a>
+          <a href="project-2.html" class="project-card">
+            <img src="../assets/projects/project-2-thumb.jpg" alt="Project 2 Thumbnail" loading="lazy">
+            <div class="project-card-overlay">
+              <h3>Project Two</h3>
+              <p>A short description of the second project.</p>
+            </div>
+          </a>
+          <a href="project-3.html" class="project-card">
+            <img src="../assets/projects/project-3-thumb.jpg" alt="Project 3 Thumbnail" loading="lazy">
+            <div class="project-card-overlay">
+              <h3>Project Three</h3>
+              <p>A short description of the third project.</p>
+            </div>
+          </a>
+        </div>
+        <div class="view-all-projects">
+          <a href="index.html" class="cta-button">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="animated-heading"><span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>s</span></h2>
+        <div class="filter-container">
+          <input type="text" id="search-input" placeholder="Search by title or keyword...">
+          <div id="tag-filters">
+            <button class="tag-filter active" data-tag="all">All</button>
+            <button class="tag-filter" data-tag="web-development">Web Development</button>
+            <button class="tag-filter" data-tag="design">Design</button>
+            <button class="tag-filter" data-tag="mobile-app">Mobile App</button>
+            <button class="tag-filter" data-tag="finance">Finance</button>
+          </div>
+        </div>
+        <div id="project-grid" class="project-grid">
+          <!-- Projects will be dynamically loaded here -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Shubham Kushwaha. Made with creativity & care. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

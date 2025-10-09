@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": 1,
+    "title": "Project One",
+    "slug": "project-1",
+    "description": "This is a short description of project one.",
+    "long_description": "This is a longer, more detailed description of the first project. It showcases my skills in web development and design. I used HTML, CSS, and JavaScript to build this project from scratch.",
+    "tags": ["web-development", "design"],
+    "date": "2025-01-15",
+    "role": "Lead Developer",
+    "tools": ["HTML", "CSS", "JavaScript"],
+    "thumbnail": "assets/projects/project-1-thumb.jpg",
+    "gallery": [
+      "assets/projects/project-1-img1.jpg",
+      "assets/projects/project-1-img2.jpg"
+    ],
+    "youtube_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "video_link": "assets/projects/project-1.mp4",
+    "live_link": "#",
+    "repo_link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Project Two",
+    "slug": "project-2",
+    "description": "This is a short description of project two.",
+    "long_description": "This is a longer, more detailed description of the second project. It is a mobile application that I developed for a client. The app helps users track their daily expenses and manage their budget.",
+    "tags": ["mobile-app", "finance"],
+    "date": "2025-03-10",
+    "role": "Mobile Developer",
+    "tools": ["React Native", "Firebase"],
+    "thumbnail": "assets/projects/project-2-thumb.jpg",
+    "gallery": [
+      "assets/projects/project-2-img1.jpg",
+      "assets/projects/project-2-img2.jpg"
+    ],
+    "youtube_link": null,
+    "video_link": null,
+    "live_link": "#",
+    "repo_link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Project Three",
+    "slug": "project-3",
+    "description": "This is a short description of project three.",
+    "long_description": "This is a longer, more detailed description of the third project. It showcases advanced techniques and a unique design approach.",
+    "tags": ["game-development", "3d-art"],
+    "date": "2025-05-20",
+    "role": "3D Artist",
+    "tools": ["Blender", "Substance Painter"],
+    "thumbnail": "assets/projects/project-3-thumb.jpg",
+    "gallery": [
+      "assets/projects/project-3-img1.jpg",
+      "assets/projects/project-3-img2.jpg"
+    ],
+    "youtube_link": null,
+    "video_link": null,
+    "live_link": "#",
+    "repo_link": "#"
+  }
+]
